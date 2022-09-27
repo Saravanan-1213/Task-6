@@ -1,0 +1,12 @@
+class Circle{
+    constructor(color,radius,area,circumference){
+      this.color = color;
+      this.area = area;
+      this.circumference = circumference;
+    }
+}
+var C1 = new Circle("black","3.14*r*r","2*3.14*r")
+
+console.log(C1.color);
+console.log(C1.area); 
+console.log(C1.circumference);

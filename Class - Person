@@ -1,0 +1,14 @@
+class Person{
+    constructor(name,age,dob,place){
+      this.name = name;
+      this.age = age;
+      this.dob = dob;
+      this.plcace = place;
+    }
+}
+var P1 = new Person("saro","22","12/04/2000","coimbatore")
+
+console.log(P1.name);
+console.log(P1.age); 
+console.log(P1.dob);
+console.log(P1.place)
